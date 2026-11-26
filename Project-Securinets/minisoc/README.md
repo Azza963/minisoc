@@ -18,3 +18,11 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 streamlit run app.py
+
+## Aperçu de la base de données (SQLite)
+
+### Table `imports`
+![Imports](assets/sqlite_imports.png)
+
+### Table `events` (Normalisation UTC ISO 8601)
+![Events](assets/sqlite_events.png)
